@@ -2,29 +2,25 @@
 Initializing Dart VM...
 
 Dart VM is ready to use.
-To contact me, please send me a message to `<a href="mailto:danicoy@gmail.com">danicoy@gmail.com</a>`.
-For more details, please visit <a href="https://portfolio.dctech.dev">https://portfolio.dctech.dev</a> or <a href="https://facefolio.dctech.dev">https://facefolio.dctech.dev</a>.
-MacBook-Pro:~ monster555$ cat ./main.dart
+To contact me, please send me a message to `<a href="mailto:ogbonnagideonofficial@gmail.com">ogbonnagideonofficial@gmail.com</a>`.
+For more details, please visit <a href="https://gideonogbonna.com">https://gideonogbonna.com</a>.
+MacBook-Pro:~ GiddyCode$ cat ./main.dart
 </pre>
-
 
 ```dart
 void main() {
-  const websiteUrl = 'dctech.dev';
+  const websiteUrl = 'gideonogbonna.com';
   
   final me = PersonalInfo(
-    title: 'Senior Flutter Engineer',
+    title: 'Senior Software Engineer',
     contacInfo: ContactInfo(
-      email: Uri.parse('mailto:danicoy@gmail.com'),
-      linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
-      github: Uri.https('github.com', 'monster555'),
-      portfolio: Uri.https('portfolio.dctech.dev'),
-      facefolio: Uri.https('facefolio.dctech.dev'),
-      website: Uri.https(websiteUrl),
-      resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
+      email: Uri.parse('mailto:ogbonnagideonofficial@gmail.com'),
+      linkedIn: Uri.https('www.linkedin.com', 'in/gideonogbonna/'),
+      github: Uri.https('github.com', 'gideonogbonna'),
+      portfolio: Uri.https('gideonogbonna.com'),
     ),
-    flutterInfo: FlutterInfo(
-      experienceYears: '5+',
+    softwareEngineeringInfo: SoftwareEngineeringInfo(
+      experienceYears: '8+',
       projectsCount: 'Many!', // And counting... :)
       // Apps published on various stores
       apps: <Store>[
@@ -40,75 +36,62 @@ void main() {
         ),
       ],
       architecturesAndTools: <String>[
-        'Flutter Web',
-        'BLoC',
-        'Clean Architecture',
+        'Flutter',
+        'React Native',
+        'Kotlin',
+        'Swift',
+        'Objective-C',
+        'Java',
+        'Node.js',
         'Firebase',
-        'MongoDB',
-        'Parse Server',
+        'Cloud Firestore',
+        'Cloud Functions',
       ],
     ),
     otherSkills: <String>[ // The most relevant
       'UI / UX',
-      'MongoDB',
       'JavaScript',
+      'TypeScript',
+      'React',
       'NodeJS',
       'HTML / CSS',
-      'TypeScript',
-      'Express'
+      'Express',
     ],
     projects: <Project>[
       Project(
-        'DateChatAI',
-        role: 'Senior Flutter Engineer',
-        platforms: Platforms(ios: true, android: true),
-        url: Uri.https('datechatai.com'),
+        'Fin.AI',
+        role: 'Senior Software Engineer',
+        platforms: Platforms(ios: true, android: true, web: true),
+        url: Uri.https('github.com', 'gideonogbonna/Fin.AI'),
       ),
       Project(
-        'My FaceFolio',
-        role: 'Senior Flutter Engineer',
-        platforms: Platforms(web: true),
-        url: Uri.https('facefolio.dctech.dev'),
-      ),
-      Project(
-        'Baseball Cuba',
-        role: 'Senior Flutter Engineer',
+        'Elderberry.care',
+        role: 'Senior Mobile Engineer',
         platforms: Platforms(android: true, iOS: true),
       ),
       Project(
-        'My Flutter Web Portfolio',
-        role: 'Senior Flutter Engineer',
-        platforms: Platforms(web: true),
-        url: Uri.https('portfolio.dctech.dev'),
+        'GladeFinance',
+        role: 'Lead Mobile Application Developer',
+        platforms: Platforms(android: true, iOS: true),
+        url: Uri.https('github.com', 'gideonogbonna/GladeFinance'),
       ),
       Project(
-        'ProAnimals',
-        role: 'Senior Flutter Engineer',
-        platforms: Platforms(android: true, iOS: true),
+        'My Mobile Portfolio',
+        role: 'Senior Mobile Engineer',
+        platforms: Platforms(web: true),
+        url: Uri.https('gideonogbonna.com', 'portfolio'),
       ),
       Project(
         'Cashews Finance',
-        role: 'Senior Flutter Engineer',
+        role: 'Senior Mobile Engineer',
         platforms: Platforms(android: true, iOS: true),
         url: Uri.https(websiteUrl, 'cashews-finance'),
       ),
       Project(
-        'Self-Service kiosk for Citroën',
+        'Self-Service Kiosk',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(android: true),
-        url: Uri.https(websiteUrl, 'citroen'),
-      ),
-      Project(
-        'PedidoFacil',
-        role: 'Full Stack Software Engineer',
-        platforms: Platforms(android: true, iOS: true),
-        url: Uri.https(websiteUrl, 'pedidofacil'),
-      ),
-      Project(
-        'EnvioFacil',
-        role: 'Full Stack Software Engineer',
-        platforms: Platforms(android: true, iOS: true),
-        url: Uri.https(websiteUrl, 'enviofacil'),
+        url: Uri.https(websiteUrl, 'self-service-kiosk'),
       ),
     ],
   )..setStatus(
@@ -116,15 +99,16 @@ void main() {
     openToNewProjects: true,
   );
 }
+
 ```
 <pre>
-MacBook-Pro:~ monster555$
+MacBook-Pro:~ GiddyCode$
 </pre>
   
 ## Apps on Stores
 
-<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank">iOS apps on App Store</a><br>
-<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank">Android apps on Play Store</a>
+<a href="https://apps.apple.com/us/developer" target="_blank">iOS apps on App Store</a><br>
+<a href="https://play.google.com/store/apps" target="_blank">Android apps on Play Store</a>
 
 ## Some stuff I've used
 
